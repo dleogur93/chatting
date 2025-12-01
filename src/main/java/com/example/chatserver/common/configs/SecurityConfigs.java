@@ -39,7 +39,7 @@ public class SecurityConfigs {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000"));
-        configuration.setAllowedMethods(Arrays.asList("*"));//모든 HTTP메서드 허용
+        configuration.setAllowedMethods(Arrays.asList("*"));//모든 HTTP메서드 허용!
         configuration.setAllowedHeaders(Arrays.asList("*")); //모든 헤어값 허용
         configuration.setAllowCredentials(true);  //자격증명 허용
 
